@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Пищеварение - источник жизненных сил и долголетия</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -11,10 +11,1053 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
+    <header class="header">
+      <div class="container">
+        <div class="flex-container">
+          <p class="category">ОНЛАЙН КУРС</p>
+          <p class="date">
+            старт <span id="dateElement"></span>.<span id="monthElement"></span>
+          </p>
+        </div>
+      </div>
+    </header>
     <main>
-      <section></section>
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">
+            Пищеварение - источник жизненных сил и долголетия
+          </h1>
+          <p class="subtitle">Активируйте главную опору жизни</p>
+          <p class="desc">
+            Как улучшить свое здоровье и отсрочить болезни на 15-20 лет с
+            помощью проверенной методики регулирования пищеварения
+          </p>
+          <ul class="list">
+            <li class="list-item">Первые результаты уже через 14 дней</li>
+            <li class="list-item">Без отказа от любимых продуктов</li>
+            <li class="list-item">Без таблеток и аптек</li>
+            <li class="list-item">
+              Узнаете ТО, что важнее белков, жиров, углеводов
+            </li>
+          </ul>
+          <a class="btn-link-container" href="#buy">
+            <p class="btn-link">ХОЧУ КУПИТЬ</p>
+            <div class="btn-star-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/hero/star-1x.png 1x,
+                    ./src/img/hero/star-2x.png 2x
+                  "
+                  width="76"
+                  height="76" />
+                <img
+                  class="btn-star-image"
+                  src="./src/img/hero/star-1x.png"
+                  alt="star-sale"
+                  width="76"
+                  height="76"
+              /></picture>
+              <p class="btn-sale-text">
+                скидка <br />
+                <span>-91%</span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="bonus">
+        <div class="container">
+          <h2 class="title">
+            Успейте присоединиться и <span>забрать лучшую цену и бонусы:</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text">
+                <span>Персональная диагностика</span> вашего пищеварения
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text">
+                <span>Рецепт ТОП 1 - чая</span> для пищеварения
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text"><span>Главное упражнение</span> для работы ЖКТ</p>
+            </li>
+          </ul>
+          <div id="countdown-one" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+              <div class="countdown-label milliseconds-label"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for-whom">
+        <div class="container">
+          <h2 class="title">Для кого <span>этот курс?</span></h2>
+          <ul class="list">
+            <li class="list-item">
+              <span class="item-number">01</span>
+              <p class="text">
+                <span>Для тех, кто чувствует,</span> что современные методы не
+                работают и ищет глубинное знание
+              </p>
+            </li>
+            <li class="list-item">
+              <span class="item-number">02</span>
+              <p class="text">
+                <span>Кто хочет понять секретный процесс</span> превращения пищи
+                в энергию, молодость, здоровье и долголетие
+              </p>
+            </li>
+            <li class="list-item">
+              <span class="item-number">03</span>
+              <p class="text">
+                <span>Кто устал лечить симптомы,</span> хочет понять корень всех
+                проблем и активировать фундаментальный механизм здоровья для
+                противодействия 90% болезней
+              </p>
+            </li>
+          </ul>
+          <p class="price"><span>4000 грн</span> 360 грн</p>
+          <a class="btn-link-container" href="#buy">
+            <p class="btn-link">ХОЧУ КУПИТЬ</p>
+            <div class="btn-star-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/hero/star-1x.png 1x,
+                    ./src/img/hero/star-2x.png 2x
+                  "
+                  width="76"
+                  height="76" />
+                <img
+                  class="btn-star-image"
+                  src="./src/img/hero/star-1x.png"
+                  alt="star-sale"
+                  width="76"
+                  height="76"
+              /></picture>
+              <p class="btn-sale-text">
+                скидка <br />
+                <span>-91%</span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <picture
+        ><source
+          srcset="
+            ./src/img/between-img/image-01-1x.jpg 1x,
+            ./src/img/between-img/image-01-2x.jpg 2x
+          "
+          width="100%"
+          height="auto" />
+        <img
+          class="between-image"
+          src="./src/img/between-img/image-01-1x.jpg"
+          alt="image"
+          width="100%"
+          height="auto"
+      /></picture>
+      <div class="bg-wrapper">
+        <section class="include">
+          <div class="container">
+            <h2 class="title">Курс состоит из</h2>
+            <p class="desc">7 видеоуроков по 10-20 мин</p>
+            <p class="text">
+              Вы станете членом сообщества (закрытого телеграмм - канала) в
+              котором, на основе древних и современных знаний, мы рассматриваем
+              вопросы: оздоровления тела и ума, правильной организации жизни,
+              благополучия и долголетия
+            </p>
+          </div>
+        </section>
+        <section class="program">
+          <div class="container">
+            <h2 class="title">программа курса</h2>
+            <div class="program-container">
+              <ul class="program-list list">
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      1.Введение: <br />
+                      <br />Пищеварение — механизм, скрытый от глаз
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Почему древние мудрецы называли пищеварение
+                            “пламенем жизни”?
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Забытые знания о главной функции тела: что не
+                            расскажут современные врачи
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      2. Таинственный процесс пищеварения: современный и древний
+                      подходы
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Современные представления о ЖКТ
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Древний взгляд: Агни — волшебный ОГОНЬ пищеварения и
+                            его мистическая роль
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Пища это не только белки, жиры и углеводы
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Как пища становится энергией достижений и
+                            материального благополучия  или лени и бедности
+                            (Почему этот процесс у многих людей нарушен?)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      3. Скрытые помощники и враги вашего пищеварения
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Взаимозависимость конституции человека и силы Агни
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Невидимые созидатели и разрушители здоровья: 
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            6 вкусов пищи, продукты которые дают/забирают силы и
+                            продлевают/сокращают жизнь
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Влияние пищи на психо - эмоциональное состояния
+                            (стрессы, лень, агрессия)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      4. Секретные правила для восстановления и регулирования
+                      пищеварения
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Способы самодиагностики состояния вашего ЖКТ, типы и
+                            стадии пищеварения
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Алхимия приготовления продуктов – Создание еды
+                            которая лечит: правила, ритуалы, специи, сочетание и
+                            взаимодействие вкусов для лечебного эффекта
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Правила приема пищи: что, как, когда, сколько?
+                            Сочетание внутренних ритмов тела с ритмами Природы
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      5. Практики древних мудрецов для активации пищеварения и
+                      очищения организма
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Древние рекомендации и упражнения для активации и
+                            устойчивости «огня жизни»
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Что помогает правильной трансформации пищи, усвоению
+                            и очищению от продуктов распада
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Образ жизни и пищеварение, особенности пищеварения у
+                            детей и пожилых людей
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      6. Болезни как следствие сломанного механизма пищеварения
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Почему у 90% людей проблемы с пищеварением и
+                            усвоением
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Почему практически все болезни начинаются из-за
+                            проблем с пищеварением; принцип работы «внутреннего
+                            котла»
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Нужно ли голодать или соблюдать диеты
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Предотвращение болезней через превентивные практики.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="program-item">
+                  <div class="program-title-container">
+                    <p class="program-item-title">
+                      7. Заключение: <br /><br />
+                      Пищеварение как врата к новой жизни
+                    </p>
+                    <div class="program-item-svg"></div>
+                  </div>
+                  <div class="program-answer-container">
+                    <div class="program-wrapper">
+                      <ul class="answer-list">
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            О человеке можно многое понять узнав что и как он
+                            ест
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Хорошее пищеварение - как средство оптимизации тела
+                            и сознания, улучшения вашего материального
+                            благополучия, внутренней силы, продления молодости и
+                            жизни
+                          </p>
+                        </li>
+                        <li class="answer-item">
+                          <span class="item-dot">/</span>
+                          <p class="program-answer">
+                            Важный шаг к комплексной методики «HUMAN
+                            OPTIMIZATION” и улучшения качества жизни во всех
+                            сферах
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="bonus borders">
+        <div class="container">
+          <p class="price"><span>4000 грн</span> 360 грн</p>
+          <a class="btn-link-container" href="#buy">
+            <p class="btn-link">ХОЧУ КУПИТЬ</p>
+            <div class="btn-star-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/hero/star-1x.png 1x,
+                    ./src/img/hero/star-2x.png 2x
+                  "
+                  width="76"
+                  height="76" />
+                <img
+                  class="btn-star-image"
+                  src="./src/img/hero/star-1x.png"
+                  alt="star-sale"
+                  width="76"
+                  height="76"
+              /></picture>
+              <p class="btn-sale-text">
+                скидка <br />
+                <span>-91%</span>
+              </p>
+            </div>
+          </a>
+          <h2 class="title">
+            Успейте присоединиться и <span>забрать лучшую цену и бонусы:</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text">
+                <span>Персональная диагностика</span> вашего пищеварения
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text">
+                <span>Рецепт ТОП 1 - чая</span> для пищеварения
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="84"
+                  height="91" />
+                <img
+                  class="item-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="84"
+                  height="91"
+              /></picture>
+              <p class="text"><span>Главное упражнение</span> для работы ЖКТ</p>
+            </li>
+          </ul>
+          <div id="countdown-two" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+              <div class="countdown-label milliseconds-label"></div>
+            </div>
+          </div>
+          <p class="garant">
+            На курс действует гарантия безусловного возврата средств на
+            протяжении 14 дней. Т.е. вы ничем не рискуете
+          </p>
+        </div>
+      </section>
+      <section class="about-author">
+        <div class="author-wrapper"><h2 class="title">Автор курса</h2></div>
+        <div class="container">
+          <h3 class="name">Виктор Новиков</h3>
+          <p class="desc">
+            <span>дипломированный аюрведический диетолог.</span> Опыт работы
+            более 10 лет
+          </p>
+          <ul class="list">
+            <li class="list-item">
+              Мне 56 лет из которых 47 лет я в спорте, мастер спорта по борьбе,
+              35 лет в бизнесе, 34 года семейной жизни, отец 3х детей, верующий
+            </li>
+            <li class="list-item">Автор программы «HUMAN OPTIMIZATION»</li>
+            <li class="list-item">Автор методики «Конструктор жизни»</li>
+            <li class="list-item">
+              Советник по экологичной мудрости. Более 15 лет изучаю древние и
+              современные знания по оздоровлению и долголетию человека:
+              анатомию, физиологию, гигиену, биомеханику, психологию, Ведические
+              знания, Аюрведу, йогу, цигун, траволечение, целительство
+            </li>
+            <li class="list-item">WELLNESS MASTER, SEO клуба WELLNESS SPACЕ</li>
+          </ul>
+          <p class="price"><span>4000 грн</span> 360 грн</p>
+          <a class="btn-link-container" href="#buy">
+            <p class="btn-link">ХОЧУ КУПИТЬ</p>
+            <div class="btn-star-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/hero/star-1x.png 1x,
+                    ./src/img/hero/star-2x.png 2x
+                  "
+                  width="76"
+                  height="76" />
+                <img
+                  class="btn-star-image"
+                  src="./src/img/hero/star-1x.png"
+                  alt="star-sale"
+                  width="76"
+                  height="76"
+              /></picture>
+              <p class="btn-sale-text">
+                скидка <br />
+                <span>-91%</span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="bg-wrapper-02">
+        <section class="how-study">
+          <div class="container">
+            <h2 class="title">Как происходит <span>обучение</span></h2>
+            <div class="wrapper">
+              <img
+                class="arrow-1"
+                src="./src/img/how-study/arrow.svg"
+                alt="arrow"
+              />
+              <img
+                class="arrow-2"
+                src="./src/img/how-study/arrow.svg"
+                alt="arrow"
+              />
+              <ul class="list">
+                <li class="list-item">
+                  <span class="item-number">1</span>
+                  <p class="item-text">
+                    После оплаты Вы получите доступ к Телеграмм-боту, вам будут
+                    доступны все уроки
+                  </p>
+                </li>
+                <li class="list-item">
+                  <span class="item-number">2</span>
+                  <p class="item-text">
+                    Уроки в записи, продолжительностью 10-20 мин. Учитесь прямо
+                    с телефона в удобное для вас время
+                  </p>
+                </li>
+                <li class="list-item">
+                  <span class="item-number">3</span>
+                  <p class="item-text">
+                    Доступ к урокам и практическим материалам действует 60 дней,
+                    что позволит проходить курс в комфортном для Вас режиме
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="you-get">
+          <div class="container">
+            <h2 class="title">ЧТО ДАСТ ЭТОТ <span>МИНИ-КУРС:</span></h2>
+            <ul class="list">
+              <li class="list-item">
+                <span class="item-number">/01</span>
+                <p class="text">
+                  <span>Откроете «сундук» древних знаний</span> и законов
+                  природы которые помогают людям прожить мудрую и долгую жизнь,
+                  в ясном уме и крепком теле
+                </p>
+              </li>
+              <li class="list-item">
+                <span class="item-number">/02</span>
+                <p class="text">
+                  <span>
+                    Сможете регулировать и настраивать свой «огонь
+                    пищеварения»</span
+                  >
+                  в зависимости от вашей собственной природы, возраста и ваших
+                  целей
+                </p>
+              </li>
+              <li class="list-item">
+                <span class="item-number">/03</span>
+                <p class="text">
+                  <span>Поймете как пищеварение помогает</span> или мешает
+                  добиться материального благополучия
+                </p>
+              </li>
+            </ul>
+            <p class="price"><span>4000 грн</span> 360 грн</p>
+            <a class="btn-link-container" href="#buy">
+              <p class="btn-link">ХОЧУ КУПИТЬ</p>
+              <div class="btn-star-container">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/hero/star-1x.png 1x,
+                      ./src/img/hero/star-2x.png 2x
+                    "
+                    width="76"
+                    height="76" />
+                  <img
+                    class="btn-star-image"
+                    src="./src/img/hero/star-1x.png"
+                    alt="star-sale"
+                    width="76"
+                    height="76"
+                /></picture>
+                <p class="btn-sale-text">
+                  скидка <br />
+                  <span>-91%</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+      <picture
+        ><source
+          srcset="
+            ./src/img/between-img/image-02-1x.jpg 1x,
+            ./src/img/between-img/image-02-2x.jpg 2x
+          "
+          width="100%"
+          height="auto" />
+        <img
+          class="between-image"
+          src="./src/img/between-img/image-02-1x.jpg"
+          alt="image"
+          width="100%"
+          height="auto"
+      /></picture>
+      <section class="reviews">
+        <div class="container">
+          <div class="title-container">
+            <h2 class="title">Отзывы</h2>
+          </div>
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-01-1x.png 1x,
+                      ./src/img/reviews/review-01-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-01-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-02-1x.png 1x,
+                      ./src/img/reviews/review-02-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-02-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-03-1x.png 1x,
+                      ./src/img/reviews/review-03-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-03-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-04-1x.png 1x,
+                      ./src/img/reviews/review-04-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-04-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-05-1x.png 1x,
+                      ./src/img/reviews/review-05-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-05-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-06-1x.png 1x,
+                      ./src/img/reviews/review-06-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-06-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h2 class="title">
+            Ответы <br />
+            <span>на вопросы</span>
+          </h2>
+          <div class="questions-container">
+            <ul class="questions-list list">
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Если я правильно питаюсь, зачем мне этот курс?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Правильное питание это сугубо индивидуальный вопрос. Я не
+                      знаю кто Вам его подбирал, но в современном мире продукты
+                      утрачивают свои природные качества (выращиваются в
+                      теплицах и наполняются различными искусственными
+                      добавками). Человек – это не то что он ест, а то что он
+                      усваивает. Хорошие продукты не гарантируют правильного
+                      усвоения, а вот хорошее пищеварение – да
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Я перепробовал много диет и ничего не помогает?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Временные диеты обычно имеют «насильственный» характер.
+                      Реально помогает только экологичное изменение культуры
+                      приема пищи. Первым этапом в этом является настройка
+                      работы «Внутреннего котла». Вы наверно знаете людей
+                      которые «немало» кушают, но не набирают лишний вес -
+                      причина в том, что у этих людей правильное пищеварение,
+                      которое помогает им сохранять хорошую форму даже без диет
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Не проще ли сходить к врачу и пропить назначенные таблетки?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Если вы настроены убирать только последствия и имеете
+                      лишнее время и деньги, то проще. Если вы хотите
+                      самостоятельно научится регулировать и поддерживать свое
+                      пищеварение без врачей и таблеток то вам просто необходимо
+                      пройти этот курс
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Что такое регулировать и настраивать пищеварение?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Идеальных людей не бывает, и каждый из нас что - то
+                      нарушает: например режим дня и приема пищи, режим сна,
+                      попадает в стрессовые ситуации, переедает или может съесть
+                      некачественную пищу. Эти действия всегда дают «сбой
+                      программы» пищеварения. Соответственно если произошел
+                      «сбой» чего-либо, то необходима настройка (как например
+                      настройка гитары, или работы компьютерной программы).
+                      Настройка и регулировка пищеварения осуществляется за счет
+                      активации компенсационных и самовосстановительных програм
+                      организма о которых вы узнаете из моего курса
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Зачем мне информация о пищеварении, я же не собираюсь быть
+                    врачом.
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Врачи лечат уже возникшие болезни, причем всем одинаково,
+                      как на конвейере. Мой курс, основанный на Аюрведе
+                      (древнейших знаниях о человеке) даст вам важнейшие знания
+                      о глубокой зависимости всех систем организма от системы
+                      пищеварения, с учетом вашей индивидуальной Природы, что
+                      позволит вам не болеть или лет на 15-20 отсрочить болезни
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="fop-box">
+          <p class="name">ФОП</p>
+          <p class="code">іпн</p>
+        </div>
+        <a class="mail-container" href="mailto:" rel="nofollow" target="_blank"
+          ><img
+            src="./src/img/footer-mail.svg"
+            width="15"
+            height="15"
+            alt="mail"
+          />почта</a
+        >
+        <div class="deals-box">
+          <a href="" target="_blank" rel="nofollow" class="deals-link public"
+            >публичная оферта
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="nofollow"
+            class="deals-link confidence"
+            >политика конфиденциальности</a
+          >
+        </div>
+        <a
+          class="dising-creator"
+          href="https://www.instagram.com/lllcku"
+          target="_blank"
+          rel="nofollow"
+          ><img src="./src/img/insta.svg" alt="insta" height="25" width="25" />
+          <p>
+            разработка сайта <br />
+            <span>lisa bardadym</span>
+          </p></a
+        >
+      </div>
+    </footer>
+    <script src="./src/js/changeDate.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/program.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
   </body>
 </html>
