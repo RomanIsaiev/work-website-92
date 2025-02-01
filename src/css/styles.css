@@ -245,6 +245,10 @@ body {
 .bonus .container {
 }
 
+.bonus .price {
+  margin-bottom: 0;
+}
+
 .bonus .title {
   color: #090909;
   text-align: center;
