@@ -53,9 +53,6 @@ current_date.setDate(current_date.getDate() + 1);
 //   'ГРУДНЯ'
 // );
 
-document.getElementById('monthElement').innerHTML =
-  month[current_date.getMonth()];
-
 var month = new Array(
   '01',
   '02',
@@ -70,3 +67,6 @@ var month = new Array(
   '11',
   '12'
 );
+
+document.getElementById('monthElement').innerHTML =
+  month[current_date.getMonth()];
