@@ -1281,16 +1281,34 @@ body {
   font-family: 'Futura PT';
   font-size: 14.192px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 115%; /* 16.32px */
   letter-spacing: -0.426px;
   text-transform: uppercase;
 
-  max-width: 220px;
+  margin: 0 auto 60px auto;
+}
+
+.disigner-box {
+  display: flex;
+  justify-content: center;
+}
+
+.dising {
+  display: inline-block;
+  color: #090909;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 14.192px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 16.32px */
+  letter-spacing: -0.426px;
+  text-transform: uppercase;
   margin: 0 auto;
 }
 
-.dising-creator span {
+.dising span {
   color: #c84a2a;
 
   font-weight: 500;
