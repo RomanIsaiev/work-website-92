@@ -103,8 +103,12 @@ body {
   background-position: center;
 }
 
-.hero {
-  background-image: url(../img/hero/bg-2x.jpg);
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/bg-2x.jpg);
+  }
 }
 
 .hero .title {
