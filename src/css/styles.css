@@ -103,6 +103,10 @@ body {
   background-position: center;
 }
 
+.hero {
+  background-image: url(../img/hero/bg-2x.jpg);
+}
+
 .hero .title {
   color: #ffc750;
   font-family: 'Helvetica Neue';
