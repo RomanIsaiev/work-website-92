@@ -817,13 +817,13 @@ body {
 .arrow-1 {
   position: absolute;
   left: 55px;
-  top: 100px;
+  top: 164px;
 }
 
 .arrow-2 {
   position: absolute;
   right: 55px;
-  top: 256px;
+  top: 320px;
 
   transform: rotateY(180deg);
 }
